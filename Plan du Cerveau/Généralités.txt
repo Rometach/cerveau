@@ -1,0 +1,13 @@
+****** Généralités ******
+
+Francis:
+--------
+
+	Etant donné que nous travaillons orienté objet, le plus important est de bien concevoir ces objets et de bien définir l'architecture de leurs interactions.
+
+	Je me suis penché sur la question et je propose ce dossier avec des plans et des infos afin de pouvoir plus aisement et plus précisément confronter nos idées et d'avoir un projet plus... propre.
+
+	Creer un objet neurone est indispensable, c'est sûr.
+	Il éventuellement possible de creer des objets de type Dentrite, Soma, Axone et Synapse ou de les considèrer comme des fonctions, à voir.
+
+--------

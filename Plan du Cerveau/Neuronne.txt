@@ -1,0 +1,40 @@
+****** Neuronne ******
+
+Propriétés :
+------------
+
+	- Exitabilité
+	- Conductivité
+	- ?Uni/Multipolarité
+
+------------
+
+Sous-strutures :
+----------------
+
+	- Soma (Corps cellulaire)
+	- Axone
+	- Dentrites
+
+----------------
+
+Communication:
+--------------
+
+	- Refractaire absolu : Insensible au influx
+	- Refractaire relative : Sensible au influx importants
+
+	- Repos : 65mV
+
+	- Si influx nerveux:
+
+		- Dépolarisation : 35mV
+			*Refractaire absolu
+
+		- Hyperpolarisation : < 65mV
+			*Refractaire absolu
+
+		- Repolarisation - > Repos
+			*Refractaire relative
+
+--------------
