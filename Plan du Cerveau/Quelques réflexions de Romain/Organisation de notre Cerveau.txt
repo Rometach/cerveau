@@ -1,0 +1,27 @@
+Comment organiser notre Cerveau ??
+En admettant qu'il s'agira d'un tableau 3D (codé d'une manière ou d'une autre) ne Neurones, comment définir les liens entre chacun d'eux pour une véritable Organisation ???
+
+
+Naïvement, on pourrait imaginer le tableau 3D et se dire que chaque Neurone communique avec ses voisins (reçoit des informations de ceux au-dessus et à gauche, transmet à ceux en-dessous et à droite par exemple). Mais cela me semble trop symétrique, pas assez flexible.
+Cependant, il est nécessaire de faire apparaître une structure, sinon ça va être n'importe quoi...
+
+Je propose qu'il y ait des "chemins privilégiés" et des relations plus rares entre ces chemins.
+Exemple concret (ce n'est qu'un exemple ; l'idée peut recouvrir tout un tas d'autres solutions). Le Cerveau est un tableau 3D ; chaque colonne est un "chemin privilégié" : il y a une toujours connexion qui va d'un neurone vers celui du dessous. A cela s'ajoute la possibilité de créer des connexions horizontales, dans les deux directions ou les deux sens.
+
+
+A noter qu'on peut, comme dans le vrai cerveau, modéliser plusieurs zones distinctes fonctionnant sur le principe précédent, mais avec peu d'interface entre ces zones.
+
+
+Il faut peut-être aussi envisager des structures robustes qu'on pourrait assimiler à un Nerf. Un tableau de Neurones (en parallèle) qui fonctionne en prennant beaucoup d'informations (une image par exemple : Nerf optique ^^) et en en sortant beaucoup aussi ; mais à la différence du reste du Cerveau, cette structure assumera ce rôle quoi qu'il arrive, sans plasticité aucune.
+
+
+D'ailleurs, ça me fait penser qu'il faudra gérer des stimuli. Un cerveau sans stimulus, c'est comme un lave-linge sans eau ni courant : ça encombre plus qu'autre chose.
+Les stimuli dans la vraie vie sont provoquées par les sensations. Bon, bah on met 5 entrées (avec des Nerfs ?) et on code des choses sympathiques qui nous permettent d'activer ou non 5 types de stimuli différents (ou pas si différents puisqu'au final tout ça est codé sur des octets.)
+Mais ! Un "Centre de décision", une "Conscience", cela ne manque-t-il pas ? Je n'ai pas du tout réfléchi à comment implanter ça mais j'imagine quelque chose comme un tas de Neurones à part du cerveau proprement dit, qui aurait accès à beaucoup d'informations (Sens, Cerveau) et qui génèrerait des stimuli, y compris s'il ne reçoit aucune information (ce qu'on ne peut autoriser aux autres Neurones !).
+
+
+Enfin, il faut bien évidemment une "Mémoire". Un truc composé de beaucoup de (Neurones ?) capables de stocker de manière pérenne une information. Les neurones à l'interface entre la Mémoire et le Cerveau devront avoir des fonctions assez explicites, comme comparer une information reçue et l'information en mémoire.
+
+
+Bref : il faut réfléchir à tout ça et faire un dessin sur une feuille au moins A4.
+Mais plus j'y réfléchis, plus je trouve que ça ressemble (avec ses spécificités) à une architecture de processeur (avec Unité Arithmétique et Logique, Registres, Drapeaux, Accès mémoire...) mais en VIVANT. On va bien s'amuser.
