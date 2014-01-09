@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1387144190 source:c:\users\francis\documents\codeblocks\cerveau\main.cpp
+	<cstdlib>
+	<stdlib.h>
+	"Cerveau.h"
+	<SDL/SDL.h>
+
+1387144190 c:\users\francis\documents\codeblocks\cerveau\cerveau.h
+	"Neurone.h"
+	<stdlib.h>
+
+1387144190 c:\users\francis\documents\codeblocks\cerveau\neurone.h
+	<iostream>
+
