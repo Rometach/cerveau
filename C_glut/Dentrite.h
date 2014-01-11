@@ -1,7 +1,7 @@
 #ifndef DENTRITE_H
 #define DENTRITE_H
 
-#include "Synapse.h" // je sais pas si c'est necessaire pour retourner un pointeur vers un synapse??
+#include "Synapse.h"
 
 /******************************
     Si tu es d'accord, on fait
