@@ -209,10 +209,8 @@
 1301111156 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
 	<objfwd.h>
 
-976659772 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
-	<windows.h>
-	<GL/gl.h>
-	<GL/glu.h>
+1390743052 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+	"freeglut_std.h"
 
 1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\gl.h
 
@@ -242,4 +240,47 @@
 
 1389254408 source:c:\users\francis\documents\codeblocks\cerveau\c_glut\dentrite.cpp
 	"Dentrite.h"
+
+1389252833 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\cerveau.cpp
+	"Cerveau.h"
+
+1389254491 c:\users\francisco\documents\codeblocks\cerveau\c_glut\cerveau.h
+	"Neurone.h"
+
+1395574293 c:\users\francisco\documents\codeblocks\cerveau\c_glut\neurone.h
+	"Axone.h"
+
+1395574522 c:\users\francisco\documents\codeblocks\cerveau\c_glut\dendrite.h
+	"Neurone.h"
+
+1395574270 c:\users\francisco\documents\codeblocks\cerveau\c_glut\synapse.h
+	"Dendrite.h"
+
+1389252091 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1390743052 c:\program files (x86)\codeblocks\mingw\include\gl\freeglut_std.h
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1389253476 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\neurone.cpp
+	"Neurone.h"
+
+1389252773 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\synapse.cpp
+	"Synapse.h"
+
+1395574304 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\dendrite.cpp
+	"Dendrite.h"
+
+1395486031 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\axone.cpp
+	"Axone.h"
+
+1395486030 c:\users\francisco\documents\codeblocks\cerveau\c_glut\axone.h
 

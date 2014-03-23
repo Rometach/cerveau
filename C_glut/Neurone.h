@@ -1,8 +1,7 @@
 #ifndef NEURONE_H
 #define NEURONE_H
 
-//#include "Synapse.h" déjà inclue dans dentrite
-#include "Dentrite.h"
+#include "Axone.h"
 
 class Neurone
 {
@@ -12,8 +11,7 @@ class Neurone
     protected:
     private:
 
-        Synapse _syn;
-        Dentrite _den;
+        Axone *_axo; // pointeur sur un axone
 };
 
 #endif // NEURONE_H
