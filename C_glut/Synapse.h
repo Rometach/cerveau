@@ -1,7 +1,7 @@
 #ifndef SYNAPSE_H
 #define SYNAPSE_H
 
-#include "Dendrite.h"
+#include "Quanta.h"
 
 class Synapse
 {
@@ -11,7 +11,8 @@ class Synapse
     protected:
     private:
 
-        Dendrite **_den; // Tableau dyn de pointeurs sur des dendrites
+    Quanta _q;
+
 };
 
 #endif // SYNAPSE_H

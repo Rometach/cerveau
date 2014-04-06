@@ -8,13 +8,12 @@ class Cerveau
     public:
         Cerveau();
         virtual ~Cerveau();
+        void frame();
     protected:
     private:
 
-        /*
-        le tab dyn de neuronne et
-        tout le reste ;)
-        */
+        Neurone ***_neu; // tableau dyn 3d de neurones
+        unsigned int taille[3]; // taille (agrandissement symétrique)
 };
 
 #endif // CERVEAU_H

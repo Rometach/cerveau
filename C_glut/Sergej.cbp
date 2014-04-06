@@ -50,6 +50,8 @@
 		<Unit filename="Dendrite.h" />
 		<Unit filename="Neurone.cpp" />
 		<Unit filename="Neurone.h" />
+		<Unit filename="Quanta.cpp" />
+		<Unit filename="Quanta.h" />
 		<Unit filename="Synapse.cpp" />
 		<Unit filename="Synapse.h" />
 		<Unit filename="main.cpp" />

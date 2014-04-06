@@ -11,7 +11,9 @@ class Neurone
     protected:
     private:
 
-        Axone *_axo; // pointeur sur un axone
+        Axone _axo; // axone
+        Dendrite *_den; // tableau dyn de dendrites
+        Quanta _q; // quanta
 };
 
 #endif // NEURONE_H
