@@ -42,18 +42,28 @@
 			<Add library="gdi32" />
 			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
 		</Linker>
+		<Unit filename="Activite.cpp" />
+		<Unit filename="Activite.h" />
 		<Unit filename="Axone.cpp" />
 		<Unit filename="Axone.h" />
 		<Unit filename="Cerveau.cpp" />
 		<Unit filename="Cerveau.h" />
 		<Unit filename="Dendrite.cpp" />
 		<Unit filename="Dendrite.h" />
+		<Unit filename="Geometrie.cpp" />
+		<Unit filename="Geometrie.h" />
+		<Unit filename="Grille_Synaptique.cpp" />
+		<Unit filename="Grille_Synaptique.h" />
 		<Unit filename="Neurone.cpp" />
 		<Unit filename="Neurone.h" />
 		<Unit filename="Quanta.cpp" />
 		<Unit filename="Quanta.h" />
+		<Unit filename="Signal.cpp" />
+		<Unit filename="Signal.h" />
 		<Unit filename="Synapse.cpp" />
 		<Unit filename="Synapse.h" />
+		<Unit filename="Zone_Synaptique.cpp" />
+		<Unit filename="Zone_Synaptique.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

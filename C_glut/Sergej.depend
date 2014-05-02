@@ -241,26 +241,33 @@
 1389254408 source:c:\users\francis\documents\codeblocks\cerveau\c_glut\dentrite.cpp
 	"Dentrite.h"
 
-1389256433 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\cerveau.cpp
+1399053665 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\cerveau.cpp
 	"Cerveau.h"
 
-1389258091 c:\users\francisco\documents\codeblocks\cerveau\c_glut\cerveau.h
-	"Neurone.h"
+1399049052 c:\users\francisco\documents\codeblocks\cerveau\c_glut\cerveau.h
+	"Grille_Synaptique.h"
 
-1396793530 c:\users\francisco\documents\codeblocks\cerveau\c_glut\neurone.h
+1399037077 c:\users\francisco\documents\codeblocks\cerveau\c_glut\neurone.h
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
 	"Axone.h"
+	"Geometrie.h"
+	"Zone_Synaptique.h"
 
 1396791411 c:\users\francisco\documents\codeblocks\cerveau\c_glut\dendrite.h
 	"Synapse.h"
 
-1396791368 c:\users\francisco\documents\codeblocks\cerveau\c_glut\synapse.h
+1398980833 c:\users\francisco\documents\codeblocks\cerveau\c_glut\synapse.h
 	"Quanta.h"
-
-1389255691 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\main.cpp
-	<windows.h>
-	<GLUT/glut.h>
-	<GL/glut.h>
+	"Signal.h"
+	"Activite.h"
 	<stdlib.h>
+	<stdio.h>
+
+1399052250 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\main.cpp
+	<stdlib.h>
+	"Cerveau.h"
 
 1390746652 c:\program files (x86)\codeblocks\mingw\include\gl\freeglut_std.h
 	<windows.h>
@@ -270,23 +277,73 @@
 	<GL/glu.h>
 	<stdlib.h>
 
-1389257076 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\neurone.cpp
+1399053542 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\neurone.cpp
 	"Neurone.h"
 
-1389256373 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\synapse.cpp
+1398953040 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\synapse.cpp
 	"Synapse.h"
 
 1395577904 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\dendrite.cpp
 	"Dendrite.h"
 
-1395489631 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\axone.cpp
+1398980725 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\axone.cpp
 	"Axone.h"
 
-1396793530 c:\users\francisco\documents\codeblocks\cerveau\c_glut\axone.h
+1398985543 c:\users\francisco\documents\codeblocks\cerveau\c_glut\axone.h
 	"Dendrite.h"
 
-1396790877 c:\users\francisco\documents\codeblocks\cerveau\c_glut\quanta.h
+1398955989 c:\users\francisco\documents\codeblocks\cerveau\c_glut\quanta.h
 
-1396790877 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\quanta.cpp
+1398955989 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\quanta.cpp
 	"Quanta.h"
+
+1399053277 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\geometrie.cpp
+	"Geometrie.h"
+
+1399043184 c:\users\francisco\documents\codeblocks\cerveau\c_glut\geometrie.h
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+
+1399054409 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\grille_synaptique.cpp
+	"Grille_Synaptique.h"
+
+1399041926 c:\users\francisco\documents\codeblocks\cerveau\c_glut\grille_synaptique.h
+	"Neurone.h"
+
+1399041926 c:\users\francisco\documents\codeblocks\cerveau\c_glut\zone_synaptique.h
+	"Synapse.h"
+
+1399052840 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\zone_synaptique.cpp
+	"Zone_Synaptique.h"
+	<iostream>
+
+1398598935 c:\users\francisco\documents\codeblocks\cerveau\c_glut\signal.h
+
+1398598935 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\signal.cpp
+	"Signal.h"
+
+1341013974 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1399041926 c:\users\francisco\documents\codeblocks\cerveau\c_glut\activite.h
+
+1399041926 source:c:\users\francisco\documents\codeblocks\cerveau\c_glut\activite.cpp
+	"Activite.h"
+
+1341013976 c:\program files (x86)\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341013980 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1341013976 c:\program files (x86)\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
 
