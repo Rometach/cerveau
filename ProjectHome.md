@@ -1,0 +1,1 @@
+"Un cerveau, après tout, ce ne sont jamais que des structures simples, les Neurones, qui échangent des entiers via d'autres structures, les Synapses."
