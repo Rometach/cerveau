@@ -1,0 +1,83 @@
+\documentclass[a4paper,10pt]{article}
+
+% PACKAGES
+\usepackage[english, greek, francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{bookman}
+\usepackage{comment}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amscd}
+\usepackage{color}
+\usepackage{calc}
+\usepackage{tikz}
+
+
+% DIMENSIONS
+\setlength{\voffset}{-3.75cm}
+\setlength{\hoffset}{-2.6cm}
+\setlength{\oddsidemargin}{2.75cm}
+\setlength{\topmargin}{2in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\topskip}{0in}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{1ex plus0.4ex minus0.2ex}
+\setlength{\textwidth}{16.25cm}
+\setlength{\textheight}{21cm}
+\renewcommand{\baselinestretch}{1.5}
+\flushbottom
+\setcounter{page}{1}
+\setcounter{tocdepth}{2}
+
+
+% COMMANDS
+\newcommand{\guill}[1]{«~#1~»}
+\newcommand{\eme}[0]{$^\text{e}$}
+\newcommand*{\txtgreek}[1]{\foreignlanguage{greek}{#1}}
+
+
+% ENVIRONMENTS
+
+
+% THEOREMS
+\theoremstyle{definition}
+\newtheorem*{qq}{Question}
+\newtheorem*{prob}{Problème}
+\newtheorem*{nota}{Notation}
+\newtheorem*{defi}{Définition}
+\newtheorem*{ex}{Exemple}
+\newtheorem*{rqu}{Remarque}
+\newtheorem*{ledefi}{Défi}
+\newtheorem*{ax}{Axiome}
+\newtheorem*{exo}{Exercice}
+\newtheorem*{rep}{$\longrightarrow$}
+\theoremstyle{remark}
+\theoremstyle{plain}
+
+
+% DRAWINGS
+\usetikzlibrary{positioning, chains, calc, arrows, decorations.pathreplacing, fit, calc}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+
+
+
+
+\title{Sergej / Francis}
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+
+
+\end{document}
