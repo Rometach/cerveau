@@ -1,0 +1,16 @@
+***************************************************************************
+****************************** COMMUNICATION ******************************
+***************************************************************************
+
+===== Code =====
+- faire des .hpp propres, avec un descriptif de chaque fonction, et en
+  séparant les fonctions importantes des fonctions auxiliaires
+- commenter, commenter beaucoup
+- expliquer les choix importants d'implémentation
+- faire des commits réguliers avec des messages clairs
+
+===== TeX =====
+- trois fichiers : Sergej.tex, Francis.tex, Romain.tex
+- Francis écrit ses réflexions dans Francis.tex, Romain dans Romain.tex
+- chacun lit les réflexions de l'autre dans le fichier adapté, et les
+  incorpore dans Sergej.tex seulement une fois ceux-ci lus et approuvés
